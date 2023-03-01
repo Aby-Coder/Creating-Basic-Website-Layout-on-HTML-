@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container,.header,.nav,.middle,.left,.right,.footer{
+            border: 3px solid rgb(250, 131, 12);
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+        .left {
+            float:left;
+            width: 200px;
+           
+        }
+        .right {
+            float:right;
+            width: 300px;
+        }
+
+        .middle{
+            height: 300px;
+            
+        }
+    .footer
+    {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+<!-- Instead of Div tag element use of modern html element (semantic readbility) -->
+    <main id="test" class="container">
+        <header class="header">Header
+            <br>
+            <h1 style="text-align: center;">Welcome to Our WebSite</h1>
+            </header>
+            <br>
+        
+    
+        <nav class="nav" id=""nav>Navigation
+            <br>
+        <a href="#"> Home </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+        <a href="#"> Services </a>
+       
+        </nav>
+        
+<br>
+        <section class="middle" id="middle">Middle
+        <br>
+        <aside class="left">left
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id placeat quam, ipsam vitae praesentium sequi velit sapiente. Mollitia, repudiandae a velit autem quaerat iusto beatae doloribus eaque quo cumque?</p>
+        </aside>
+
+        <aside class="right">Right
+            <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nemo dolor culpa dicta placeat delectus voluptatum tempora? Ut animi asperiores sapiente alias, nesciunt accusamus doloribus amet nobis consequatur! Nihil, corporis?</p>
+        </aside>
+    
+    </section>
+        <br>
+        <footer class="footer"> Footer 
+        
+            <h5>&copy;copy right reserved</h5>
+        </footer>
+
+
+    </main>
+</body>
+</html>
